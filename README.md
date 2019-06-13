@@ -2,7 +2,7 @@
 
 This repository describes a quality assurance issue between two cTAKES systems.
 
-The issue appears when running the sentence `severe bipolar i disorder` with both the proper cTAKES program and the cTAKES Web Rest MySQL solution. The former recognizes the term `bipolar` while the latter is not.
+The issue appears when running the sentence `severe bipolar i disorder` with both the proper cTAKES program and the cTAKES Web Rest MySQL solution. The former recognizes the term `bipolar` (with the SNOMEDCT_US coding scheme) while the latter does not.
 
 
 ## Enviroments
@@ -23,8 +23,9 @@ SNOMEDCT_US(236784,10981006)
 
 ## Execution & Results
 
-1) Web Rest was ran with both `Full` and `Default` pipelines via the web interface. Both results can be found in the folder here: `REST MySQL Results`.
-2) The regular program was ran with the `AggregatePlaintextFastUMLSProcessor` pipeline via the CLI. All results can be found in the folder here: `CVD Results`.
+1) Web Rest was ran with both `Full` and `Default` pipelines via the web interface. Both results can be found in the folder here: `REST MySQL Results`. The results are somewhat the same, with `Full` having more textsems, refsems, syntax, and cas nodes.
+
+2) The regular program was ran with the `AggregatePlaintextFastUMLSProcessor` pipeline via the CLI. All results can be found in the folder here: `CVD Results`. `XCAS` and `XMI CAS` both show the SNOMED_US-link to `Bipolar I disorder` and `Severe bipolar I disorder`, which is the correct result.
 
 
 ### License
