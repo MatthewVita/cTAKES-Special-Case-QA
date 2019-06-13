@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><CAS version="2">
+    <uima.cas.Sofa _indexed="0" _id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="severe bipolar i disorder"/>
+    <uima.tcas.DocumentAnnotation _indexed="1" _id="1" _ref_sofa="6" begin="0" end="25" language="en"/>
+    <org.apache.ctakes.typesystem.type.textspan.Segment _indexed="1" _id="13" _ref_sofa="6" begin="0" end="25" id="SIMPLE_SEGMENT"/>
+    <org.apache.ctakes.typesystem.type.textspan.Sentence _indexed="1" _id="19" _ref_sofa="6" begin="0" end="25" sentenceNumber="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="25" _ref_sofa="6" begin="0" end="6" tokenNumber="0" normalizedForm="severe" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="severe"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="37" _ref_sofa="6" begin="7" end="14" tokenNumber="1" normalizedForm="bipolar" partOfSpeech="JJ" capitalization="0" numPosition="0" canonicalForm="bipolar"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="49" _ref_sofa="6" begin="15" end="16" tokenNumber="2" normalizedForm="I" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="I"/>
+    <org.apache.ctakes.typesystem.type.syntax.WordToken _indexed="1" _id="61" _ref_sofa="6" begin="17" end="25" tokenNumber="3" normalizedForm="disorder" partOfSpeech="NN" capitalization="0" numPosition="0" canonicalForm="disorder"/>
+    <org.apache.ctakes.typesystem.type.textsem.RomanNumeralAnnotation _indexed="1" _id="73" _ref_sofa="6" begin="15" end="16" id="3" typeID="0" segmentID="SIMPLE_SEGMENT" discoveryTechnique="0" confidence="0.0" polarity="0" uncertainty="0" conditional="false" generic="false" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.NP _indexed="1" _id="91" _ref_sofa="6" begin="0" end="25" chunkType="NP"/>
+    <org.apache.ctakes.typesystem.type.textsem.DiseaseDisorderMention _indexed="1" _id="109" _ref_sofa="6" begin="0" end="25" id="0" _ref_ontologyConceptArr="106" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.DiseaseDisorderMention _indexed="1" _id="197" _ref_sofa="6" begin="7" end="25" id="2" _ref_ontologyConceptArr="194" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.DiseaseDisorderMention _indexed="1" _id="153" _ref_sofa="6" begin="17" end="25" id="4" _ref_ontologyConceptArr="150" typeID="2" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.textsem.SignSymptomMention _indexed="1" _id="241" _ref_sofa="6" begin="0" end="6" id="1" _ref_ontologyConceptArr="238" typeID="3" segmentID="SIMPLE_SEGMENT" discoveryTechnique="1" confidence="0.0" polarity="1" uncertainty="0" conditional="false" generic="false" subject="patient" historyOf="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="275" _ref_sofa="6" begin="0" end="25" id="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="289" _ref_sofa="6" begin="0" end="6" id="1" form="severe" lemma="severe" cpostag="JJ" postag="JJ" feats="_" _ref_head="331" deprel="amod" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="303" _ref_sofa="6" begin="7" end="14" id="2" form="bipolar" lemma="bipolar" cpostag="JJ" postag="JJ" feats="_" _ref_head="317" deprel="amod" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="317" _ref_sofa="6" begin="15" end="16" id="3" form="i" lemma="i" cpostag="NN" postag="NN" feats="_" _ref_head="331" deprel="nn" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.syntax.ConllDependencyNode _indexed="1" _id="331" _ref_sofa="6" begin="17" end="25" id="4" form="disorder" lemma="disorder" cpostag="NN" postag="NN" feats="_" _ref_head="275" deprel="root" pdeprel="_"/>
+    <org.apache.ctakes.typesystem.type.structured.DocumentID _indexed="1" _id="345" documentID="UnknownDocument1"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="353" _ref_sofa="6" begin="0" end="6" nodeType="JJ" nodeValue="severe" leaf="true" _ref_parent="423" headIndex="0" index="0" tokenIndex="0"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="366" _ref_sofa="6" begin="7" end="14" nodeType="JJ" nodeValue="bipolar" leaf="true" _ref_parent="423" headIndex="0" index="1" tokenIndex="1"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="379" _ref_sofa="6" begin="15" end="16" nodeType="NN" nodeValue="i" leaf="true" _ref_parent="423" headIndex="0" index="2" tokenIndex="2"/>
+    <org.apache.ctakes.typesystem.type.syntax.TerminalTreebankNode _indexed="1" _id="392" _ref_sofa="6" begin="17" end="25" nodeType="NN" nodeValue="disorder" leaf="true" _ref_parent="423" headIndex="0" index="3" tokenIndex="3"/>
+    <org.apache.ctakes.typesystem.type.syntax.TreebankNode _indexed="1" _id="423" _ref_sofa="6" begin="0" end="25" nodeType="NP" leaf="false" _ref_parent="405" _ref_children="436" _ref_nodeTags="434" headIndex="3"/>
+    <org.apache.ctakes.typesystem.type.syntax.TopTreebankNode _indexed="1" _id="405" _ref_sofa="6" begin="0" end="25" nodeType="TOP" leaf="false" _ref_children="420" _ref_nodeTags="418" headIndex="0" treebankParse="(TOP (NP (JJ severe) (JJ bipolar) (NN i) (NN disorder)))" _ref_terminals="347"/>
+    <uima.cas.FSArray _id="347" size="4">
+        <i>353</i>
+        <i>366</i>
+        <i>379</i>
+        <i>392</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="418" size="0"/>
+    <uima.cas.FSArray _id="420" size="1">
+        <i>423</i>
+    </uima.cas.FSArray>
+    <uima.cas.StringArray _id="434" size="0"/>
+    <uima.cas.FSArray _id="436" size="4">
+        <i>353</i>
+        <i>366</i>
+        <i>379</i>
+        <i>392</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="228" codingScheme="SNOMEDCT_US" code="446431000124107" oid="446431000124107#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C1519275" tui="T033" preferredText="Grade 3 Severe Adverse Event"/>
+    <uima.cas.FSArray _id="238" size="1">
+        <i>228</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="140" codingScheme="SNOMEDCT_US" code="64572001" oid="64572001#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0012634" tui="T047" preferredText="Disease"/>
+    <uima.cas.FSArray _id="150" size="1">
+        <i>140</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="184" codingScheme="SNOMEDCT_US" code="371596008" oid="371596008#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C0853193" tui="T048" preferredText="Bipolar I disorder"/>
+    <uima.cas.FSArray _id="194" size="1">
+        <i>184</i>
+    </uima.cas.FSArray>
+    <org.apache.ctakes.typesystem.type.refsem.UmlsConcept _id="96" codingScheme="SNOMEDCT_US" code="371599001" oid="371599001#SNOMEDCT_US" score="0.0" disambiguated="false" cui="C1276786" tui="T048" preferredText="Severe bipolar I disorder"/>
+    <uima.cas.FSArray _id="106" size="1">
+        <i>96</i>
+    </uima.cas.FSArray>
+</CAS>
