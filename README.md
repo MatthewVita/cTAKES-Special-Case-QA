@@ -7,8 +7,8 @@ The issue appears when running the sentence `severe bipolar i disorder` with bot
 
 ## Enviroments
 
-1) cTAKES proper @ svn 1850060 with the resources data loaded on disk/in memory
-2) cTAKES Web Rest MySQL version @ svn 1850060 with the resource data loaded in via plain SQL
+1) cTAKES proper @ svn [1850060](https://svn.apache.org/viewvc?view=revision&revision=1850060) with the resources data loaded on disk/in memory
+2) cTAKES Web Rest MySQL version @ svn [1850060](https://svn.apache.org/viewvc?view=revision&revision=1850060) with the resource data loaded in via plain SQL
 
 
 ## MySQL Data
